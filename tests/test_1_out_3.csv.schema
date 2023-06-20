@@ -1,0 +1,15 @@
+{
+  "kind": "TableSchema",
+  "columns": [
+    {
+      "kind": "ColumnSchema",
+      "name": "ds1100.cell_id",
+      "type": "int32"
+    },
+    {
+      "kind": "ColumnSchema",
+      "name": "ds1100.cell_names",
+      "type": "string"
+    }
+  ]
+}

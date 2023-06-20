@@ -1,0 +1,25 @@
+{
+  "kind": "TableSchema",
+  "columns": [
+    {
+      "kind": "ColumnSchema",
+      "name": "ds1100.gene_id",
+      "type": "int32"
+    },
+    {
+      "kind": "ColumnSchema",
+      "name": "ds1100.cell_id",
+      "type": "int32"
+    },
+    {
+      "kind": "ColumnSchema",
+      "name": "ds1100.value",
+      "type": "double"
+    },
+    {
+      "kind": "ColumnSchema",
+      "name": ".ci",
+      "type": "int32"
+    }
+  ]
+}

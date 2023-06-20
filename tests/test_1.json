@@ -1,0 +1,18 @@
+{
+  "kind": "OperatorUnitTest",
+  "name": "test_1",
+  "namespace": "ds1100",
+  "inputDataUri": "input.csv",
+  "outputDataUri": ["test_1_out_1.csv", "test_1_out_2.csv", "test_1_out_3.csv"],
+  "columns": [
+    "documentId"
+  ],
+  "rows": [],
+  "colors": [],
+  "labels": [],
+  "yAxis": "y_values",
+  "xAxis": "",
+  "generatedOn": "03/13/2023 04:42:38 PM 2023",
+  "version": "",
+  "inputFileUris": ["example_seurat_object.Rdata"]
+}
