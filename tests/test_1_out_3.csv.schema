@@ -10,6 +10,21 @@
       "kind": "ColumnSchema",
       "name": "ds1100.cell_names",
       "type": "string"
+    },
+    {
+      "kind": "ColumnSchema",
+      "name": "ds1100.orig.ident",
+      "type": "string"
+    },
+    {
+      "kind": "ColumnSchema",
+      "name": "ds1100.nCount_RNA",
+      "type": "int32"
+    },
+    {
+      "kind": "ColumnSchema",
+      "name": "ds1100.nFeature_RNA",
+      "type": "int32"
     }
   ]
 }
