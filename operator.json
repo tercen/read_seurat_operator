@@ -1,6 +1,6 @@
 {
   "name": "Seurat",
-  "description": "Import a Seurat object saved as an RData or RDS file.",
+  "description": "Imports a Seurat object saved as an RData or RDS file.",
   "tags": [
     "import",
     "sc-RNA-seq"
