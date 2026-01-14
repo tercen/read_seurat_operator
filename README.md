@@ -8,7 +8,7 @@ This operator imports a Seurat object saved as an RData or RDS file into Tercen.
 
 Input projection|.
 ---|---
-`column`        | Document ID
+`documentId`        | Document ID of Seurat RData or RDS file
 
 ##### See Also
 

@@ -11,5 +11,28 @@
   "urls": [
     "https://github.com/tercen/read_seurat_operator"
   ],
-  "properties": []
+  "properties": [],
+  "operatorSpec": {
+    "kind": "OperatorSpec",
+    "ontologyUri": "https://tercen.com/_ontology/tercen",
+    "ontologyVersion": "0.0.1",
+    "inputSpecs": [
+      {
+        "kind": "CrosstabSpec",
+        "metaFactors": [
+          {
+            "kind": "MetaFactor",
+            "name": "Document ID",
+            "type": "string",
+            "description": "Document ID of Seurat RData or RDS file.",
+            "ontologyMapping": "document",
+            "crosstabMapping": "column",
+            "cardinality": "1..n",
+            "factors": []
+          }
+        ]
+      }
+    ],
+    "outputSpecs": []
+  }
 }
