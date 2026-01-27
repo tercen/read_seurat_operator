@@ -33,6 +33,57 @@
         ]
       }
     ],
-    "outputSpecsV2": []
+    "outputSpecsV2": [
+      {
+        "kind": "OperatorJoinSpec",
+        "description": "Sparse matrix output with gene, cell metadata and Seurat annotations",
+        "joinOperators": [
+          {
+            "kind": "JoinOperator",
+            "joinType": "left",
+            "leftPair": {
+              "kind": "ColumnPair",
+              "lColumns": [
+                "Document ID"
+              ],
+              "rColumns": [
+                "Document ID"
+              ]
+            },
+            "rightRelation": {
+              "kind": "TableRelation",
+              "description": "Includes Seurat metadata columns dynamically",
+              "attributes": [
+                {
+                  "kind": "Attribute",
+                  "name": "gene_id",
+                  "type": "int32"
+                },
+                {
+                  "kind": "Attribute",
+                  "name": "cell_id",
+                  "type": "int32"
+                },
+                {
+                  "kind": "Attribute",
+                  "name": "value",
+                  "type": "double"
+                },
+                {
+                  "kind": "Attribute",
+                  "name": "gene_names",
+                  "type": "string"
+                },
+                {
+                  "kind": "Attribute",
+                  "name": "cell_names",
+                  "type": "string"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
   }
 }
